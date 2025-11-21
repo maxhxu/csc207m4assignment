@@ -36,6 +36,8 @@ public class StatementPrinter {
         return result.toString();
     }
 
+    // Task 2.4 done
+
     private int getTotalAmount() {
         int result = 0;
         for (Performance performance : getInvoice().getPerformances()) {
